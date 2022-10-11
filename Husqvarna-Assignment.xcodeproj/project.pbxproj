@@ -11,6 +11,15 @@
 		7759841428F44D0400E1B1D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759841328F44D0400E1B1D4 /* ContentView.swift */; };
 		7759841628F44D0500E1B1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7759841528F44D0500E1B1D4 /* Assets.xcassets */; };
 		7759841928F44D0500E1B1D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7759841828F44D0500E1B1D4 /* Preview Assets.xcassets */; };
+		7759843D28F474C200E1B1D4 /* MovieAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759843C28F474C200E1B1D4 /* MovieAPI.swift */; };
+		7759844028F47B2900E1B1D4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7759843F28F47B2900E1B1D4 /* Alamofire */; };
+		7759844528F4819B00E1B1D4 /* UrlRequestBuildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759844428F4819B00E1B1D4 /* UrlRequestBuildable.swift */; };
+		7759844728F4825B00E1B1D4 /* UrlRequestBuildable + URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759844628F4825B00E1B1D4 /* UrlRequestBuildable + URLRequestConvertible.swift */; };
+		7759844A28F4CDFC00E1B1D4 /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = 7759844928F4CDFC00E1B1D4 /* ObjectMapper */; };
+		7759844C28F4DFB000E1B1D4 /* HusqvarnaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759844B28F4DFB000E1B1D4 /* HusqvarnaTests.swift */; };
+		7759844E28F4E74600E1B1D4 /* MovieRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759844D28F4E74600E1B1D4 /* MovieRouter.swift */; };
+		7759845128F4E7A100E1B1D4 /* TopRatedMovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759845028F4E7A100E1B1D4 /* TopRatedMovieResponse.swift */; };
+		7759845328F4E7BD00E1B1D4 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759845228F4E7BD00E1B1D4 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +39,13 @@
 		7759841528F44D0500E1B1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7759841828F44D0500E1B1D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7759841E28F44D0500E1B1D4 /* Husqvarna-AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Husqvarna-AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7759843C28F474C200E1B1D4 /* MovieAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPI.swift; sourceTree = "<group>"; };
+		7759844428F4819B00E1B1D4 /* UrlRequestBuildable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlRequestBuildable.swift; sourceTree = "<group>"; };
+		7759844628F4825B00E1B1D4 /* UrlRequestBuildable + URLRequestConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UrlRequestBuildable + URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		7759844B28F4DFB000E1B1D4 /* HusqvarnaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HusqvarnaTests.swift; sourceTree = "<group>"; };
+		7759844D28F4E74600E1B1D4 /* MovieRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRouter.swift; sourceTree = "<group>"; };
+		7759845028F4E7A100E1B1D4 /* TopRatedMovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedMovieResponse.swift; sourceTree = "<group>"; };
+		7759845228F4E7BD00E1B1D4 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7759844A28F4CDFC00E1B1D4 /* ObjectMapper in Frameworks */,
+				7759844028F47B2900E1B1D4 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +91,8 @@
 			children = (
 				7759841128F44D0400E1B1D4 /* Husqvarna_AssignmentApp.swift */,
 				7759841328F44D0400E1B1D4 /* ContentView.swift */,
+				7759844F28F4E79000E1B1D4 /* Model */,
+				7759843B28F4748600E1B1D4 /* Network */,
 				7759841528F44D0500E1B1D4 /* Assets.xcassets */,
 				7759841728F44D0500E1B1D4 /* Preview Content */,
 			);
@@ -90,8 +110,45 @@
 		7759842128F44D0500E1B1D4 /* Husqvarna-AssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
+				7759844B28F4DFB000E1B1D4 /* HusqvarnaTests.swift */,
 			);
 			path = "Husqvarna-AssignmentTests";
+			sourceTree = "<group>";
+		};
+		7759843B28F4748600E1B1D4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7759844328F4818400E1B1D4 /* Core */,
+				7759844228F4816E00E1B1D4 /* Movie */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7759844228F4816E00E1B1D4 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				7759843C28F474C200E1B1D4 /* MovieAPI.swift */,
+				7759844D28F4E74600E1B1D4 /* MovieRouter.swift */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		7759844328F4818400E1B1D4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7759844428F4819B00E1B1D4 /* UrlRequestBuildable.swift */,
+				7759844628F4825B00E1B1D4 /* UrlRequestBuildable + URLRequestConvertible.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7759844F28F4E79000E1B1D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7759845028F4E7A100E1B1D4 /* TopRatedMovieResponse.swift */,
+				7759845228F4E7BD00E1B1D4 /* Movie.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +167,10 @@
 			dependencies = (
 			);
 			name = "Husqvarna-Assignment";
+			packageProductDependencies = (
+				7759843F28F47B2900E1B1D4 /* Alamofire */,
+				7759844928F4CDFC00E1B1D4 /* ObjectMapper */,
+			);
 			productName = "Husqvarna-Assignment";
 			productReference = 7759840E28F44D0400E1B1D4 /* Husqvarna-Assignment.app */;
 			productType = "com.apple.product-type.application";
@@ -147,6 +208,7 @@
 					};
 					7759841D28F44D0500E1B1D4 = {
 						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
 						TestTargetID = 7759840D28F44D0400E1B1D4;
 					};
 				};
@@ -160,6 +222,10 @@
 				Base,
 			);
 			mainGroup = 7759840528F44D0400E1B1D4;
+			packageReferences = (
+				7759843E28F47B2900E1B1D4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7759844828F4CDFC00E1B1D4 /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+			);
 			productRefGroup = 7759840F28F44D0400E1B1D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -194,8 +260,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7759844528F4819B00E1B1D4 /* UrlRequestBuildable.swift in Sources */,
+				7759844728F4825B00E1B1D4 /* UrlRequestBuildable + URLRequestConvertible.swift in Sources */,
+				7759843D28F474C200E1B1D4 /* MovieAPI.swift in Sources */,
 				7759841428F44D0400E1B1D4 /* ContentView.swift in Sources */,
+				7759845128F4E7A100E1B1D4 /* TopRatedMovieResponse.swift in Sources */,
 				7759841228F44D0400E1B1D4 /* Husqvarna_AssignmentApp.swift in Sources */,
+				7759845328F4E7BD00E1B1D4 /* Movie.swift in Sources */,
+				7759844E28F4E74600E1B1D4 /* MovieRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7759844C28F4DFB000E1B1D4 /* HusqvarnaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,15 +467,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5RY5NF7FKU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leotils.Husqvarna-AssignmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Husqvarna-Assignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Husqvarna-Assignment";
@@ -414,11 +494,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5RY5NF7FKU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leotils.Husqvarna-AssignmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -460,6 +546,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7759843E28F47B2900E1B1D4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		7759844828F4CDFC00E1B1D4 /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7759843F28F47B2900E1B1D4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7759843E28F47B2900E1B1D4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7759844928F4CDFC00E1B1D4 /* ObjectMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7759844828F4CDFC00E1B1D4 /* XCRemoteSwiftPackageReference "ObjectMapper" */;
+			productName = ObjectMapper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7759840628F44D0400E1B1D4 /* Project object */;
 }
