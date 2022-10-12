@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7759841228F44D0400E1B1D4 /* Husqvarna_AssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759841128F44D0400E1B1D4 /* Husqvarna_AssignmentApp.swift */; };
-		7759841428F44D0400E1B1D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759841328F44D0400E1B1D4 /* ContentView.swift */; };
 		7759841628F44D0500E1B1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7759841528F44D0500E1B1D4 /* Assets.xcassets */; };
 		7759841928F44D0500E1B1D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7759841828F44D0500E1B1D4 /* Preview Assets.xcassets */; };
 		7759843D28F474C200E1B1D4 /* MovieAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759843C28F474C200E1B1D4 /* MovieAPI.swift */; };
@@ -20,6 +19,11 @@
 		7759844E28F4E74600E1B1D4 /* MovieRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759844D28F4E74600E1B1D4 /* MovieRouter.swift */; };
 		7759845128F4E7A100E1B1D4 /* TopRatedMovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759845028F4E7A100E1B1D4 /* TopRatedMovieResponse.swift */; };
 		7759845328F4E7BD00E1B1D4 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759845228F4E7BD00E1B1D4 /* Movie.swift */; };
+		7759845628F56FFB00E1B1D4 /* TopMoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759845528F56FFB00E1B1D4 /* TopMoviesView.swift */; };
+		7759845928F5AE5400E1B1D4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7759845828F5AE5400E1B1D4 /* Kingfisher */; };
+		7759845F28F5D44600E1B1D4 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7759845E28F5D44600E1B1D4 /* MovieDetailsView.swift */; };
+		77AC7F0928F641C60095E4A2 /* TopMoviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC7F0828F641C60095E4A2 /* TopMoviewViewModel.swift */; };
+		77AC7F0B28F645B20095E4A2 /* DownsampledKFImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC7F0A28F645B20095E4A2 /* DownsampledKFImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +39,6 @@
 /* Begin PBXFileReference section */
 		7759840E28F44D0400E1B1D4 /* Husqvarna-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Husqvarna-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7759841128F44D0400E1B1D4 /* Husqvarna_AssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Husqvarna_AssignmentApp.swift; sourceTree = "<group>"; };
-		7759841328F44D0400E1B1D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7759841528F44D0500E1B1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7759841828F44D0500E1B1D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7759841E28F44D0500E1B1D4 /* Husqvarna-AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Husqvarna-AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +49,10 @@
 		7759844D28F4E74600E1B1D4 /* MovieRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRouter.swift; sourceTree = "<group>"; };
 		7759845028F4E7A100E1B1D4 /* TopRatedMovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedMovieResponse.swift; sourceTree = "<group>"; };
 		7759845228F4E7BD00E1B1D4 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		7759845528F56FFB00E1B1D4 /* TopMoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviesView.swift; sourceTree = "<group>"; };
+		7759845E28F5D44600E1B1D4 /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		77AC7F0828F641C60095E4A2 /* TopMoviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviewViewModel.swift; sourceTree = "<group>"; };
+		77AC7F0A28F645B20095E4A2 /* DownsampledKFImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownsampledKFImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7759845928F5AE5400E1B1D4 /* Kingfisher in Frameworks */,
 				7759844A28F4CDFC00E1B1D4 /* ObjectMapper in Frameworks */,
 				7759844028F47B2900E1B1D4 /* Alamofire in Frameworks */,
 			);
@@ -90,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				7759841128F44D0400E1B1D4 /* Husqvarna_AssignmentApp.swift */,
-				7759841328F44D0400E1B1D4 /* ContentView.swift */,
+				7759845428F56A6B00E1B1D4 /* View */,
 				7759844F28F4E79000E1B1D4 /* Model */,
 				7759843B28F4748600E1B1D4 /* Network */,
 				7759841528F44D0500E1B1D4 /* Assets.xcassets */,
@@ -151,6 +159,25 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		7759845428F56A6B00E1B1D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77AC7F0728F6417A0095E4A2 /* TopMovies */,
+				7759845E28F5D44600E1B1D4 /* MovieDetailsView.swift */,
+				77AC7F0A28F645B20095E4A2 /* DownsampledKFImage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77AC7F0728F6417A0095E4A2 /* TopMovies */ = {
+			isa = PBXGroup;
+			children = (
+				7759845528F56FFB00E1B1D4 /* TopMoviesView.swift */,
+				77AC7F0828F641C60095E4A2 /* TopMoviewViewModel.swift */,
+			);
+			path = TopMovies;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,6 +197,7 @@
 			packageProductDependencies = (
 				7759843F28F47B2900E1B1D4 /* Alamofire */,
 				7759844928F4CDFC00E1B1D4 /* ObjectMapper */,
+				7759845828F5AE5400E1B1D4 /* Kingfisher */,
 			);
 			productName = "Husqvarna-Assignment";
 			productReference = 7759840E28F44D0400E1B1D4 /* Husqvarna-Assignment.app */;
@@ -225,6 +253,7 @@
 			packageReferences = (
 				7759843E28F47B2900E1B1D4 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				7759844828F4CDFC00E1B1D4 /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+				7759845728F5AE5400E1B1D4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 7759840F28F44D0400E1B1D4 /* Products */;
 			projectDirPath = "";
@@ -260,13 +289,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7759845628F56FFB00E1B1D4 /* TopMoviesView.swift in Sources */,
+				77AC7F0928F641C60095E4A2 /* TopMoviewViewModel.swift in Sources */,
 				7759844528F4819B00E1B1D4 /* UrlRequestBuildable.swift in Sources */,
 				7759844728F4825B00E1B1D4 /* UrlRequestBuildable + URLRequestConvertible.swift in Sources */,
 				7759843D28F474C200E1B1D4 /* MovieAPI.swift in Sources */,
-				7759841428F44D0400E1B1D4 /* ContentView.swift in Sources */,
+				7759845F28F5D44600E1B1D4 /* MovieDetailsView.swift in Sources */,
 				7759845128F4E7A100E1B1D4 /* TopRatedMovieResponse.swift in Sources */,
 				7759841228F44D0400E1B1D4 /* Husqvarna_AssignmentApp.swift in Sources */,
 				7759845328F4E7BD00E1B1D4 /* Movie.swift in Sources */,
+				77AC7F0B28F645B20095E4A2 /* DownsampledKFImage.swift in Sources */,
 				7759844E28F4E74600E1B1D4 /* MovieRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,6 +596,14 @@
 				minimumVersion = 4.0.0;
 			};
 		};
+		7759845728F5AE5400E1B1D4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -576,6 +616,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7759844828F4CDFC00E1B1D4 /* XCRemoteSwiftPackageReference "ObjectMapper" */;
 			productName = ObjectMapper;
+		};
+		7759845828F5AE5400E1B1D4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7759845728F5AE5400E1B1D4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

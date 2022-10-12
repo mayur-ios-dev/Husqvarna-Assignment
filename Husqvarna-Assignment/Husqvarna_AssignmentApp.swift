@@ -11,7 +11,7 @@ import SwiftUI
 struct Husqvarna_AssignmentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TopMoviesView()
         }
     }
 }
